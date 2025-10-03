@@ -1,44 +1,44 @@
+<img src="https://github.com/amrhelmy/amrhelmy/blob/master/header.png" alt="Header Image">
 
-
-# 👋 أهلاً بيك، أنا عمرو حلمي  
-💼 محاسب ضرائب | 🐍 مطوّر بايثون لأتمتة الأعمال | 📊 متخصص في الأتمتة المالية والضريبية  
-
----
-
-## 🚀 عني
-- أعمل كمحاسب ضرائب بخبرة في التعامل مع قانون الضرائب المصري (قانون 91 لسنة 2005)  
-- أستخدم **Python + Excel** لعمل أدوات تساعد في:  
-  - معالجة وتسوية البيانات الضريبية  
-  - رفع الفواتير أوتوماتيكياً  
-  - استخراج وتحليل البيانات من الملفات والإيميلات  
-- هدفي: **تسريع المهام الروتينية للمحاسبين باستخدام الأوتوميشن**  
+# 👋 Hi, I’m Amr Helmy  
+💼 Tax Accountant | 🐍 Python Automation Developer | 📊 Finance & Tax Automation Specialist  
 
 ---
 
-## 🔧 الأدوات اللي بشتغل بيها
+## 🚀 About Me
+- I work as a **Tax Accountant** with strong knowledge of the Egyptian Tax Law (Law 91 of 2005).  
+- I use **Python + Excel** to build automation tools for:  
+  - Processing and reconciling tax data  
+  - Automating electronic invoice submission  
+  - Extracting and analyzing data from files and emails  
+- My goal: **Automate repetitive accounting and tax tasks to save time and improve accuracy**  
+
+---
+
+## 🔧 Tools & Technologies
 - **Python** (pandas, openpyxl, win32com, requests)  
 - **Excel VBA & Formulas**  
-- **SQL & Databases** (لإدارة البيانات)  
-- **Power BI** (للتقارير والتحليلات)  
+- **SQL & Databases** (for data management)  
+- **Power BI** (for reporting & analytics)  
 
 ---
 
-## 📌 مشاريع قمت بها
-- 🧾 سكريبت لرفع الفواتير على المنظومة الإلكترونية  
-- 📂 أداة لاستخراج المرفقات من الإيميل تلقائياً  
-- 📊 برنامج لمقارنة ميزان المراجعة مع المركز المالي للتأكد من الدقة  
-- 🏦 أتمتة حسابات الضرائب والإهلاك الضريبي  
+## 📌 Projects I’ve Worked On
+- 🧾 Script for uploading invoices to the Egyptian e-invoicing system  
+- 📂 Tool to automatically extract attachments from Outlook emails  
+- 📊 Program to reconcile trial balance with financial position statements  
+- 🏦 Tax depreciation and corporate tax automation scripts  
 
 ---
 
-## 🖥️ Showcase (نماذج عملية)
+## 🖥️ Showcase (Practical Examples)
 
-### 🔹 1- رفع الفواتير الإلكترونية
+### 🔹 1- Uploading Electronic Invoices
 ```python
 from functions import Get_Token, Post_Document
 from openpyxl import load_workbook
 
-# مثال مبسط لرفع الفواتير من ملف Excel
+# Simple example: Upload invoices from Excel
 token = Get_Token()
 wb = load_workbook("invoices.xlsx")
 sheet = wb.active
