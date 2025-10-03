@@ -1,4 +1,4 @@
-<img src="https://github.com/amrhelmy/amrhelmy/blob/master/header.png" alt="Header Image">
+
 
 # 👋 Hi, I’m Amr Helmy  
 💼 Tax Accountant | 🐍 Python Automation Developer | 📊 Finance & Tax Automation Specialist  
